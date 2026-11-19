@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Go Smile · lo que arreglé en tu página</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #F3F4F2; color: #111; font: 17px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif; }
+  .franja { background: #000; padding: 16px 20px; }
+  .franja div { max-width: 760px; margin: 0 auto; color: #fff; font-weight: 800; font-size: 22px; letter-spacing: .02em; }
+  .franja span { color: #B3EFA8; }
+  .caja { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: clamp(28px, 5.5vw, 40px); line-height: 1.15; margin: 0 0 10px; }
+  .sub { color: #555; margin: 0 0 28px; }
+  ol { list-style: none; margin: 0; padding: 0; counter-reset: n; }
+  li { counter-increment: n; background: #fff; border-radius: 12px; padding: 18px 20px 18px 64px; margin-bottom: 12px; position: relative; box-shadow: 0 6px 18px -12px rgba(0,0,0,.25); }
+  li::before { content: counter(n); position: absolute; left: 18px; top: 18px; width: 32px; height: 32px; border-radius: 50%; background: #B3EFA8; color: #000; font-weight: 800; text-align: center; line-height: 32px; }
+  li h2 { font-size: 19px; margin: 0 0 6px; }
+  .antes, .ahora { display: block; font-size: 15.5px; padding-left: 74px; position: relative; margin-top: 4px; }
+  .antes::before, .ahora::before { position: absolute; left: 0; top: 1px; font: 800 11px/1 "Segoe UI", Arial; letter-spacing: .08em; padding: 4px 7px; border-radius: 4px; }
+  .antes { color: #7a2a1b; } .antes::before { content: "ANTES"; background: #F6E1DC; color: #7a2a1b; }
+  .ahora { color: #1f5a16; } .ahora::before { content: "AHORA"; background: #DDF7D8; color: #1f5a16; }
+  b.num { font-size: 1.15em; }
+  .bien { background: #000; color: #fff; border-radius: 12px; padding: 16px 20px; margin: 0 0 22px; font-size: 15.5px; }
+  .bien b { color: #B3EFA8; }
+  .botones { display: flex; flex-wrap: wrap; gap: 12px; margin: 30px 0 10px; }
+  .boton { display: inline-block; padding: 15px 24px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+  .b1 { background: #B3EFA8; color: #000; } .b2 { border: 2px solid #000; color: #000; }
+  .nota { font-size: 13.5px; color: #666; margin-top: 22px; }
+</style>
+</head>
+<body>
+<div class="franja"><div>GO <span>Smile</span></div></div>
+<div class="caja">
+  <h1>Revisé tu página y le arreglé estos detalles.</h1>
+  <p class="sub">Es la misma página, con el mismo diseño, las mismas fotos y los mismos textos. Solo cambia lo que estaba fallando.</p>
+
+  <p class="bien">Lo primero: tu página está bien hecha. Según Google carga rápido en el celular (<b>88 de 100</b>) y está bien armada para aparecer en búsquedas (<b>100 de 100</b>). Lo que encontré son detalles.</p>
+
+  <ol>
+    <li><h2>Google dice un horario y tu página otro</h2>
+      <span class="antes">La página dice lunes a viernes de 9:00 a 19:00. Google dice 9:00 a 18:30, y en La Dehesa también sábado de 9:00 a 13:30. El teléfono que muestra Google (9 6435 3248) tampoco es el de la página, y Chicureo no tiene teléfono en Google.</span>
+      <span class="ahora">Falta que me digas cuál es el real, y lo dejamos igual en la página y en Google.</span></li>
+    <li><h2>Chicureo casi no aparece</h2>
+      <span class="antes">La sucursal de Piedra Roja sale solo en la parte de abajo. Los títulos y «Nos ubicamos en…» hablan solo de Lo Barnechea.</span>
+      <span class="ahora">Cada página dice Lo Barnechea y Chicureo, y la sección de ubicación muestra las dos sucursales.</span></li>
+    <li><h2>Tus opiniones de Google no se ven</h2>
+      <span class="antes">Tienen <b class="num">5,0</b> con <b class="num">137</b> opiniones en La Dehesa y <b class="num">5,0</b> con <b class="num">14</b> en Chicureo, y la página no lo dice en ninguna parte.</span>
+      <span class="ahora">Sale arriba, apenas se abre la página.</span></li>
+    <li><h2>Todavía hablaba de la pandemia</h2>
+      <span class="antes">En Invisalign dice «Considerando la situación actual de pandemia, aproximadamente 3 a 4 semanas después…».</span>
+      <span class="ahora">Dice solo los plazos.</span></li>
+    <li><h2>En el celular, la evaluación gratis quedaba abajo</h2>
+      <span class="antes">Al abrir la página en el teléfono, el botón «Evaluación Invisalign» no se ve: hay que bajar.</span>
+      <span class="ahora">El botón de evaluación gratis se ve apenas se abre.</span></li>
+    <li><h2>El WhatsApp no dice de dónde viene</h2>
+      <span class="antes">Llega «Hola, deseo agendar una cita.», igual que si viniera de cualquier otra parte.</span>
+      <span class="ahora">Llega «Hola Go Smile, vengo de la página web y quiero agendar una evaluación». Así sabes cuántos pacientes trae la página.</span></li>
+    <li><h2>Faltas de ortografía y un blog vacío</h2>
+      <span class="antes">«Todos los redechos reservados» en todas las páginas, «Invisalign en un sistema», «Rápidez», «CERTIFICACÓN». Y el blog está publicado vacío («Vuelve pronto»).</span>
+      <span class="ahora">Faltas corregidas y el blog fuera hasta que tenga artículos.</span></li>
+  </ol>
+
+  <div class="botones">
+    <a class="boton b1" href="../">Ver tu página arreglada</a>
+    <a class="boton b2" href="../version-nueva/">Ver una versión nueva</a>
+  </div>
+  <p class="nota">Revisado el 18 de noviembre de 2026 en gosmile.cl y en las fichas de Google Maps de las dos sucursales. Velocidad medida con la herramienta de Google (Lighthouse), celular simulado.</p>
+</div>
+</body>
+</html>

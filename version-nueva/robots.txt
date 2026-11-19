@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lukasconejeros.github.io/gosmile-web-borrador/version-nueva/sitemap.xml
